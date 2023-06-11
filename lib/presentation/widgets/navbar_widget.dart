@@ -52,7 +52,9 @@ class _NavigationBarWidgetState extends State<NavigationBarWidget> {
           ],
         ),
         floatingActionButton: FloatingActionButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pushNamed(context, '/qr-scanner-page');
+          },
           backgroundColor: buttonColor,
           elevation: 0,
           child: const Icon(
@@ -65,11 +67,11 @@ class _NavigationBarWidgetState extends State<NavigationBarWidget> {
         bottomNavigationBar: BottomAppBar(
           color: primaryColor,
           elevation: 10,
-          notchMargin: 8,
+          notchMargin: 10,
           shadowColor: textColor,
           shape: const CircularNotchedRectangle(),
           child: Container(
-            height: 66,
+            height: 60,
             padding: const EdgeInsets.symmetric(horizontal: 4),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

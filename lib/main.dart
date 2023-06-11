@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kantongku/presentation/pages/home_page.dart';
+import 'package:kantongku/presentation/pages/qr_scanner_page.dart';
 import 'package:kantongku/presentation/widgets/navbar_widget.dart';
 import 'package:kantongku/style/color.dart';
 
@@ -25,6 +26,8 @@ class MyApp extends StatelessWidget {
                 builder: (_) => const NavigationBarWidget());
           case HomePage.routeName:
             return MaterialPageRoute(builder: (_) => const HomePage());
+          case QRScannerPage.routeName:
+            return MaterialPageRoute(builder: (_) => const QRScannerPage());
           default:
             return null;
         }
