@@ -1,6 +1,6 @@
 name: kantongku
 description: A new Flutter project.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -11,7 +11,9 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   google_fonts: ^5.0.0
-  fl_chart: ^0.62.0
+  skeletons: ^0.0.3
+  percent_indicator: ^4.2.3
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:
@@ -20,3 +22,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - lib/assets/images/bibit.jpg
+    - lib/assets/images/gopay.jpg
+    - lib/assets/images/profile.jpg
+    - lib/assets/json/saving_target_dummy.json
+    - lib/assets/json/transaction_dummy.json

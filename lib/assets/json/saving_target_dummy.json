@@ -1,0 +1,82 @@
+[
+  {
+    "purpose_name": "Vacation",
+    "total_saving": 5000,
+    "has_saving": 3000,
+    "left_saving": 2000,
+    "percent_saving": 60,
+    "month_duration": 6
+  },
+  {
+    "purpose_name": "Education",
+    "total_saving": 10000,
+    "has_saving": 8000,
+    "left_saving": 2000,
+    "percent_saving": 80,
+    "month_duration": 12
+  },
+  {
+    "purpose_name": "Car Purchase",
+    "total_saving": 20000,
+    "has_saving": 15000,
+    "left_saving": 5000,
+    "percent_saving": 75,
+    "month_duration": 8
+  },
+  {
+    "purpose_name": "Emergency Fund",
+    "total_saving": 10000,
+    "has_saving": 5000,
+    "left_saving": 5000,
+    "percent_saving": 50,
+    "month_duration": 24
+  },
+  {
+    "purpose_name": "Home Renovation",
+    "total_saving": 15000,
+    "has_saving": 10000,
+    "left_saving": 5000,
+    "percent_saving": 66.67,
+    "month_duration": 10
+  },
+  {
+    "purpose_name": "Wedding",
+    "total_saving": 25000,
+    "has_saving": 20000,
+    "left_saving": 5000,
+    "percent_saving": 80,
+    "month_duration": 12
+  },
+  {
+    "purpose_name": "Retirement",
+    "total_saving": 500000,
+    "has_saving": 300000,
+    "left_saving": 200000,
+    "percent_saving": 60,
+    "month_duration": 60
+  },
+  {
+    "purpose_name": "Business Startup",
+    "total_saving": 50000,
+    "has_saving": 40000,
+    "left_saving": 10000,
+    "percent_saving": 80,
+    "month_duration": 18
+  },
+  {
+    "purpose_name": "Gadget Purchase",
+    "total_saving": 3000,
+    "has_saving": 2000,
+    "left_saving": 1000,
+    "percent_saving": 66.67,
+    "month_duration": 3
+  },
+  {
+    "purpose_name": "Charity",
+    "total_saving": 1000,
+    "has_saving": 500,
+    "left_saving": 500,
+    "percent_saving": 50,
+    "month_duration": 6
+  }
+]
