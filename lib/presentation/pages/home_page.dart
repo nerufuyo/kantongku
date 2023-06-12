@@ -348,25 +348,22 @@ class _HomePageState extends State<HomePage> {
                                   ),
                                 ],
                               ),
-                              SizedBox(
-                                width: MediaQuery.of(context).size.width / 4,
-                                child: CircularPercentIndicator(
-                                  radius: 40,
-                                  lineWidth: 6,
-                                  percent: data[index].hasSaving /
-                                      data[index].totalSaving,
-                                  center: Text(
-                                    '${(data[index].hasSaving / data[index].totalSaving * 100).toStringAsFixed(0)}%',
-                                    style: poppinsBody1.copyWith(
-                                      color: textColor,
-                                    ),
+                              CircularPercentIndicator(
+                                radius: 40,
+                                lineWidth: 6,
+                                percent: data[index].hasSaving /
+                                    data[index].totalSaving,
+                                center: Text(
+                                  '${(data[index].hasSaving / data[index].totalSaving * 100).toStringAsFixed(0)}%',
+                                  style: poppinsBody1.copyWith(
+                                    color: textColor,
                                   ),
-                                  backgroundColor: textColor.withOpacity(.1),
-                                  progressColor: buttonColor,
-                                  animation: true,
-                                  animationDuration: 2000,
-                                  animateFromLastPercent: true,
                                 ),
+                                backgroundColor: textColor.withOpacity(.1),
+                                progressColor: buttonColor,
+                                animation: true,
+                                animationDuration: 2000,
+                                animateFromLastPercent: true,
                               ),
                             ],
                           ),

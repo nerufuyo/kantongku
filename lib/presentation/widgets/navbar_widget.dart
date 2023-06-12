@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:kantongku/presentation/pages/history_page.dart';
 import 'package:kantongku/presentation/pages/home_page.dart';
 import 'package:kantongku/presentation/pages/pocket_page.dart';
+import 'package:kantongku/presentation/pages/settings_page.dart';
 import 'package:kantongku/style/color.dart';
 
 class NavigationBarWidget extends StatefulWidget {
@@ -42,12 +44,8 @@ class _NavigationBarWidgetState extends State<NavigationBarWidget> {
           children: const [
             HomePage(),
             PocketPage(),
-            Center(
-              child: Text('History'),
-            ),
-            Center(
-              child: Text('Settings'),
-            ),
+            HistoryPage(),
+            SettingsPage(),
           ],
         ),
         floatingActionButton: FloatingActionButton(
