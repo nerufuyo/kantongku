@@ -28,5 +28,8 @@ flutter:
     - lib/assets/images/bibit.jpg
     - lib/assets/images/gopay.jpg
     - lib/assets/images/profile.jpg
+    - lib/assets/images/chip.png
     - lib/assets/json/saving_target_dummy.json
     - lib/assets/json/transaction_dummy.json
+    - lib/assets/json/credit_card_dummy.json
+    - lib/assets/json/pocket_dummy.json

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kantongku/presentation/pages/home_page.dart';
+import 'package:kantongku/presentation/pages/pocket_page.dart';
 import 'package:kantongku/style/color.dart';
 
 class NavigationBarWidget extends StatefulWidget {
@@ -40,9 +41,7 @@ class _NavigationBarWidgetState extends State<NavigationBarWidget> {
           index: _selectedIndex,
           children: const [
             HomePage(),
-            Center(
-              child: Text('Transaction'),
-            ),
+            PocketPage(),
             Center(
               child: Text('History'),
             ),

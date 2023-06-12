@@ -82,6 +82,10 @@ class _QRScannerPageState extends State<QRScannerPage> {
                   Container(
                     width: MediaQuery.of(context).size.width,
                     height: MediaQuery.of(context).size.height / 2.75,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      color: secondaryColor,
+                    ),
                     padding: const EdgeInsets.all(16),
                     child: QRView(
                       cameraFacing: CameraFacing.back,
@@ -97,6 +101,7 @@ class _QRScannerPageState extends State<QRScannerPage> {
                       ),
                     ),
                   ),
+                  const VerticalGap10(),
                   Text(
                     'You can scan QR code from your friend to send money',
                     style: poppinsBody1.copyWith(

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "cv": "123",
+    "expiration_date": "05/25",
+    "card_number": "4111111111111111",
+    "balance": 2500.0,
+    "status": 1,
+    "visa": false
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "cv": "456",
+    "expiration_date": "09/24",
+    "card_number": "5500000000000004",
+    "balance": 500.0,
+    "status": 2,
+    "visa": true
+  },
+  {
+    "id": 3,
+    "name": "Emma Davis",
+    "cv": "789",
+    "expiration_date": "12/23",
+    "card_number": "6011111111111117",
+    "balance": 10000.0,
+    "status": 3,
+    "visa": true
+  },
+  {
+    "id": 4,
+    "name": "Maxine Wilson",
+    "cv": "234",
+    "expiration_date": "03/27",
+    "card_number": "3530111333300000",
+    "balance": 1500.0,
+    "status": 1,
+    "visa": false
+  },
+  {
+    "id": 5,
+    "name": "Sophia Lee",
+    "cv": "890",
+    "expiration_date": "11/28",
+    "card_number": "4905100000000006",
+    "balance": 7000.0,
+    "status": 3,
+    "visa": true
+  }
+]
